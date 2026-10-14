@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Nexora Chat — Phase 1
 
 A WhatsApp-inspired, real-time chat application built with React, Tailwind CSS, Express, MongoDB, and Socket.IO.
@@ -55,3 +56,6 @@ The API and Socket.IO server run on `http://localhost:5000`. The Vite developmen
 ## Security notes
 
 Passwords are stored as bcrypt hashes. The API does not expose password hashes, and conversation reads, writes, and Socket.IO room joins all require participant membership. Use HTTPS, a strong unique `JWT_SECRET`, and appropriate production CORS and rate-limiting settings before deploying.
+=======
+# Nexora-chat
+>>>>>>> b689af75a5d989ef03ce137600dafc4b47033357
